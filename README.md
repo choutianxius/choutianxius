@@ -5,13 +5,11 @@
 - Linkedin: [tianxiu-zhou](https://www.linkedin.com/in/tianxiu-zhou)
 - Github: [choutianxius](https://github.com/choutianxius)
 
-- Location: 1800 Holleman Drive, College Station, TX 77840
-
 ## Education
 
 | Institute            | Degree                         | Time                         |
 | -------------------- | ------------------------------ | ---------------------------- |
-| Texas A&M University | Master of Computer Science     | Aug 2023 - Expected May 2025 |
+| Texas A&M University | Master of Computer Science     | Aug 2023 - May 2025 |
 | Tsinghua University  | Bachelor of Science in Biology | Aug 2019 - Jun 2023          |
 
 ## Skills
@@ -46,12 +44,12 @@
 | ----------------------------------------------------------- | --------------- | ------------------------------------------------------------ | ------------------ |
 | Digital Twin-Based Smart City & Smart Construction Platform | Texas A&M Univ. | TypeScript, Next.js, React Native, TailwindCSS, FastAPI, Apache Kafka, Redis, AWS | Nov 2023 - Current |
 
-- Built a FastAPI based Python backend to perform domain specific data analysis and provide a RESTful API.
-- Developed a queuing system with Apache Kafka and Redis to asynchronously process data from different sources and persist results in AWS DynamoDB.
-- Built both a data visualizing website and an admin's dashboard with TypeScript, Next.js and TailwindCSS.
-- Developed a cross-platform mobile app for data visualization with TypeScript and React Native. Created a performant plotting library with React Native Skia and D3.js for making highly customized charts.
-- Deployed the backend and frontend apps with AWS services including ECS, S3, CloudFront, Route53 and Amplify.
-- Set up CI/CD pipelines with AWS CodeCommit, CodeBuild and CodeDeploy for automatic testing and deployment.
+- Designed and implemented a FastAPI backend to deliver domain-specific data analysis via RESTful APIs.
+- Engineered an asynchronous data processing pipeline using Apache Kafka and Redis, with outputs persisted to AWS DynamoDB.
+- Built responsive web interfaces including a public data visualization site and an internal admin dashboard using Next.js and TailwindCSS.
+- Developed a cross-platform mobile app with React Native for interactive data visualization; created a high-performance custom charting library using React Native Skia and D3.js.
+- Deployed full-stack applications using AWS services including ECS, S3, CloudFront, Route 53, and Amplify.
+- Established CI/CD pipelines with AWS CodeCommit, CodeBuild, and CodeDeploy to automate testing, integration, and deployment workflows.
 
 ## Projects
 
