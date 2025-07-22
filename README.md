@@ -1,6 +1,6 @@
-# Tianxiu Zhou
+# Tianxiu (Tyson) Zhou
 
-- Mobile: (313)752-4309
+- Mobile: (510)502-6832
 - Email: [choutianxius@gmail.com](mailto:choutianxius@gmail.com)
 - Linkedin: [tianxiu-zhou](https://www.linkedin.com/in/tianxiu-zhou)
 - Github: [choutianxius](https://github.com/choutianxius)
