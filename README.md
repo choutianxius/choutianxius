@@ -1,32 +1,25 @@
 # Tianxiu Zhou
 
-- Mobile: (313)752-4309
+- Mobile: (510)502-6832
 - Email: [choutianxius@gmail.com](mailto:choutianxius@gmail.com)
 - Linkedin: [tianxiu-zhou](https://www.linkedin.com/in/tianxiu-zhou)
 - Github: [choutianxius](https://github.com/choutianxius)
 
-## Education
-
-| Institute            | Degree                         | Time                         |
-| -------------------- | ------------------------------ | ---------------------------- |
-| Texas A&M University | Master of Computer Science     | Aug 2023 - May 2025 |
-| Tsinghua University  | Bachelor of Science in Biology | Aug 2019 - Jun 2023          |
-
-## Skills
-
-| Category                | Skills                                                       |
-| ----------------------- | ------------------------------------------------------------ |
-| Backend Development     | .NET, FastAPI, Django, Flask, Node.js, Express.js, Spring Boot, MySQL, Redis, Kafka |
-| Frontend Development    | TypeScript, JavaScript, React.js, Next.js, TailwindCSS, HTML, CSS, React Native, Redux |
-| Professional Dev Skills | Git, Docker, CI/CD, AWS, Linux                               |
-| Programming Languages   | TypeScript, JavaScript, C#, Python, Java, SQL, HTML, CSS     |
-| Data Science & ML       | PyTorch, Pandas, Numpy, Reinforcement Learning, D3.js, Matplotlib |
-
 ## Experience
+
+### Software Engineer
+
+| Company             | Team                                     | Location       | Time               |
+| ------------------- | ---------------------------------------- | -------------- | ------------------ |
+| Meta Platforms, Inc | Instagram Parent and Guardian Experience | Menlo Park, CA | Jul 2025 - Current |
+
+- Uplift parent and teen's sentiment and alignment on Instagram through in-app marketing promotions. Optimize marketing strategies with A/B testing experiments, holdout experiments and surveys.
+- Build and maintain supervision features for teens and parents/guardians on Instagram across mobile and web platforms.
+- Contribute to better engineering efforts to improve reliability and scalability. Integrate LLMs with code quality issue detection pipelines and improve the team's adoption of AI-driven development.
 
 ### Software Development Intern
 
-| Project Name                                 | Company      | Tech Stack                                        | Time                |
+| Project Name                                 | Company      | Skills                                            | Time                |
 | -------------------------------------------- | ------------ | ------------------------------------------------- | ------------------- |
 | Advanced Mobile Automated Regression Testing | Paycom, LLC. | .NET, TypeScript, React.js, MySQL, Docker, GitLab | May 2024 - Aug 2024 |
 
@@ -40,8 +33,8 @@
 
 ### Research Assistant
 
-| Project Name                                                | Company         | Tech Stack                                                   | Time               |
-| ----------------------------------------------------------- | --------------- | ------------------------------------------------------------ | ------------------ |
+| Project Name                                                | Institute       | Skills                                                                            | Time               |
+| ----------------------------------------------------------- | --------------- | --------------------------------------------------------------------------------- | ------------------ |
 | Digital Twin-Based Smart City & Smart Construction Platform | Texas A&M Univ. | TypeScript, Next.js, React Native, TailwindCSS, FastAPI, Apache Kafka, Redis, AWS | Nov 2023 - Current |
 
 - Designed and implemented a FastAPI backend to deliver domain-specific data analysis via RESTful APIs.
@@ -55,10 +48,27 @@
 
 ### B.S. Thesis Research
 
-| Project Name                                               | Location       | Tech Stack                                              | Time                |
+| Project Name                                               | Institute      | Skills                                                  | Time                |
 | ---------------------------------------------------------- | -------------- | ------------------------------------------------------- | ------------------- |
 | Network Dissection of a DQN Agent Playing Super Mario Bros | Tsinghua Univ. | PyTorch, Deep Reinforcement Learning, OpenAI Gym, Numpy | Feb 2023 - Jun 2023 |
 
 - Implemented the double DQN algorithm with PyTorch to train a reinforcement learning agent to beat Super Mario Bros.
 - Fine-tuned a semantic segmentation model for segmenting in-game scenes to generate training dataset for the DQN agent, based on ResNet-50.
 - Examined the correlation between activation of neurons in the DQN network and objects in the input scenes, in an effort to investigate the mechanism of neuron function generation.
+
+## Education
+
+| Institute            | Degree                         | Time                         |
+| -------------------- | ------------------------------ | ---------------------------- |
+| Texas A&M University | Master of Computer Science     | Aug 2023 - May 2025          |
+| Tsinghua University  | Bachelor of Science in Biology | Aug 2019 - Jun 2023          |
+
+## Skills
+
+| Category                | Skills                                                                                 |
+| ----------------------- | -------------------------------------------------------------------------------------- |
+| Backend Development     | .NET, FastAPI, Django, Flask, Node.js, Express.js, Spring Boot, MySQL, Redis, Kafka    |
+| Frontend Development    | TypeScript, JavaScript, React.js, Next.js, TailwindCSS, HTML, CSS, React Native, Redux |
+| Professional Dev Skills | Git, Docker, CI/CD, AWS, Linux                                                         |
+| Programming Languages   | TypeScript, JavaScript, C#, Python, Java, SQL, HTML, CSS                               |
+| Data Science & ML       | PyTorch, Pandas, Numpy, Reinforcement Learning, D3.js, Matplotlib                      |
