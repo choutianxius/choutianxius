@@ -10,7 +10,7 @@
 \usepackage[pdftex]{hyperref}
 \usepackage{fancyhdr}
 % This is a custom font. Try use `updmap` in command line if build fails after installing font package
-\usepackage{fontawesome5}
+\usepackage{fontawesome7}
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
@@ -50,32 +50,27 @@
   \item\raggedright\small{#1\vspace{-.5pt}}
 }
 
-\newcommand{\twoRowSubHeading}[5]{
-  \item
-  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+\newcommand{\experienceSubHeading}[5]{
+  \item[]
+  \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
     \textbf{#1} | {#2} & {#3} \\
     \small{\textit{#4}} & \textit{\small{#5}} \\
   \end{tabular*}\vspace{-5pt}
 }
 
-\newcommand{\oneRowSubHeading}[2]{
-  \item
-  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-    \textbf{#1} & \textit{\small #2} \\
-  \end{tabular*}\vspace{-5pt}
-}
-
 \newcommand{\educationSubHeading}[3]{
-  \item
-  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-    \textbf{#1}, {\small #2} & \textit{\small #3} \\
+  \item[]
+  \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{#1}, {\small #2} & \textit{\small #3}
   \end{tabular*}\vspace{-5pt}
 }
 
 \renewcommand{\labelitemii}{$\circ$}
 
-\newcommand{\subHeadingListStart}{\begin{itemize}[leftmargin=*]}
-\newcommand{\subHeadingListEnd}{\end{itemize}}
+\newcommand{\experienceListStart}{\begin{itemize}[leftmargin=0]}
+\newcommand{\experienceListEnd}{\end{itemize}}
+\newcommand{\educationListStart}{\begin{itemize}[leftmargin=0]}
+\newcommand{\educationListEnd}{\end{itemize}}
 \newcommand{\itemListStart}{\begin{itemize}[leftmargin=*]}
 \newcommand{\itemListEnd}{\end{itemize}\vspace{-5pt}}
 
@@ -87,9 +82,9 @@
 
 
 %----------HEADING-----------------
-\textbf{\Large \centerline{Tianxiu Zhou}}\\
+\textbf{\Large \centerline{Tianxiu (Tyson) Zhou}}\\
 \vspace{8pt}\centerline{
-  \faPhone\hspace{4pt} (313)752-4309
+  \faPhone\hspace{4pt} (510)502-6832
   \hspace{8pt}
   \faEnvelope\hspace{4pt} \href{mailto:choutianxius@gmail.com}{choutianxius@gmail.com}
   \hspace{8pt}
@@ -98,42 +93,29 @@
   \faGithub\hspace{4pt} \href{https://github.com/choutianxius}{choutianxius}
 }
 
-%-----------EDUCATION-----------------
-\section{Education}
-\subHeadingListStart
-\educationSubHeading
-{Texas A\&M University}{Master of Computer Science}{Aug 2023 -- May 2025}
-\educationSubHeading
-{Tsinghua University}{Bachelor of Science in Biology}{Aug 2019 -- Jun 2023}
-\subHeadingListEnd
+%-----------Experiences-----------------
+\section{Experiences}
+\experienceListStart
 
+\experienceSubHeading
+{Software Engineer}
+{Instagram Parent and Guardian Experience}
+{\small{\faMeta} Meta Platforms, Inc.}
+{In-product marketing, PHP, Python, iOS, Android, React.js}
+{Jul 2025 - Current}
+\itemListStart
+\mySecondaryItem{
+  Uplift parent and teen's sentiment and alignment on Instagram through in-app marketing promotions. Optimize marketing strategies with A/B testing experiments, holdout experiments and surveys.
+}
+\mySecondaryItem{
+  Build and maintain supervision features for teens and parents/guardians on Instagram across mobile and web platforms.
+}
+\mySecondaryItem{
+  Contribute to better engineering efforts to improve reliability and scalability. Integrate LLMs with code quality issue detection pipelines and improve the team's adoption of AI-driven development.
+}
+\itemListEnd
 
-%--------Technical SKILLS------------
-\section{Skills}
-\subHeadingListStart
-\myItem{
-  \textbf{Backend Development}: .NET, FastAPI, Django, Flask, Node.js, Express.js, Spring Boot, MySQL, Redis, Kafka
-}
-\myItem{
-  \textbf{Frontend Development}: TypeScript, JavaScript, React.js, Next.js, TailwindCSS, HTML, CSS, React Native, Redux
-}
-\myItem{
-  \textbf{Professional Dev Skills}: Git, Docker, CI/CD, AWS, Linux
-}
-\myItem{
-  \textbf{Programming Languages}: TypeScript, JavaScript, C\#, Python, Java, SQL, HTML, CSS
-}
-\myItem{
-  \textbf{Data Science and Machine Learning}: PyTorch, Pandas, Numpy, Reinforcement Learning, D3.js, Matplotlib
-}
-\subHeadingListEnd
-
-
-%-----------Experience-----------------
-\section{Experience}
-\subHeadingListStart
-
-\twoRowSubHeading
+\experienceSubHeading
 {Software Development Intern}
 {Advanced Mobile Automated Regression Testing}
 {Paycom LLC.}
@@ -163,13 +145,13 @@
 }
 \itemListEnd
 
-\twoRowSubHeading
+\experienceSubHeading
 {Research Assistant}
 {Digital Twin-Based Smart City \& Smart Construction Platform
 }
 {Texas A\&M Univ.}
 {TypeScript, Next.js, React Native, TailwindCSS, FastAPI, Apache Kafka, Redis, AWS}
-{Nov 2023 -- Current}
+{Nov 2023 -- May 2025}
 \itemListStart
 \mySecondaryItem{
   Designed and implemented a FastAPI backend to deliver domain-specific data analysis via RESTful APIs.
@@ -191,15 +173,15 @@
 }
 \itemListEnd
 
-\subHeadingListEnd
+\experienceListEnd
 
 %-----------Projects-----------------
 \section{Projects}
-\subHeadingListStart
+\experienceListStart
 
-\twoRowSubHeading
+\experienceSubHeading
 {B.S. Thesis Research}
-{Network Dissection of a DQN Agent Playing Super Mario Bros
+{Network Dissection of a DQN Agent for Super Mario Bros
   \small \href{https://github.com/choutianxius/thuthesis-mario}{\faGithub}
 }
 {Tsinghua Univ.}
@@ -216,7 +198,14 @@
 }
 \itemListEnd
 
-\subHeadingListEnd
+\experienceListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+\educationListStart
+\educationSubHeading{Texas A\&M University}{Master of Computer Science}{Aug 2023 -- May 2025}
+\educationSubHeading{Tsinghua University}{Bachelor of Science in Biology}{Aug 2019 -- Jun 2023}
+\educationListEnd
 
 
 %-------------------------------------------
