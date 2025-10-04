@@ -5,7 +5,7 @@
 - Linkedin: [tianxiu-zhou](https://www.linkedin.com/in/tianxiu-zhou)
 - Github: [choutianxius](https://github.com/choutianxius)
 
-## Experience
+## Experiences
 
 ### Software Engineer
 
@@ -35,7 +35,7 @@
 
 | Project Name                                                | Institute       | Skills                                                                            | Time               |
 | ----------------------------------------------------------- | --------------- | --------------------------------------------------------------------------------- | ------------------ |
-| Digital Twin-Based Smart City & Smart Construction Platform | Texas A&M Univ. | TypeScript, Next.js, React Native, TailwindCSS, FastAPI, Apache Kafka, Redis, AWS | Nov 2023 - Current |
+| Digital Twin-Based Smart City & Smart Construction Platform | Texas A&M Univ. | TypeScript, Next.js, React Native, TailwindCSS, FastAPI, Apache Kafka, Redis, AWS | Nov 2023 - May 2025 |
 
 - Designed and implemented a FastAPI backend to deliver domain-specific data analysis via RESTful APIs.
 - Engineered an asynchronous data processing pipeline using Apache Kafka and Redis, with outputs persisted to AWS DynamoDB.
