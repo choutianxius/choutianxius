@@ -37,7 +37,7 @@ jobs:
         run: docker run --rm -v .:/workdir texlive/texlive pdflatex -synctex=1 -interaction=nonstopmode -file-line-error -recorder mycv.tex
 
       - name: Prepare artifact
-        run: rm -rf docs/stable.pdf && cp mycv.pdf docs/Tianxiu_(Tyson)_Zhou-Resume.pdf
+        run: rm -rf docs/*.pdf && cp mycv.pdf "docs/Tianxiu_(Tyson)_Zhou-Resume.pdf"
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
