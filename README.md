@@ -7,15 +7,17 @@
 
 ## Experiences
 
-### Software Engineer
+### AI-Native Software Engineer
 
-| Company             | Team                                     | Location       | Time               |
-| ------------------- | ---------------------------------------- | -------------- | ------------------ |
-| Meta Platforms, Inc | Instagram Parent and Guardian Experience | Menlo Park, CA | Jul 2025 - Current |
+| Company              | Team                                     | Skills                                                    | Time              |
+| -------------------- | ---------------------------------------- | --------------------------------------------------------- | ----------------- |
+| Meta Platforms, Inc. | Instagram Parent and Guardian Experience | AI-native Development, Python, PHP, iOS, Android, React.js | Jul 2025 - Present |
 
-- Uplift parent and teen's sentiment and alignment on Instagram through in-app marketing promotions. Optimize marketing strategies with A/B testing experiments, holdout experiments and surveys.
-- Build and maintain supervision features for teens and parents/guardians on Instagram across mobile and web platforms.
-- Contribute to better engineering efforts to improve reliability and scalability. Integrate LLMs with code quality issue detection pipelines and improve the team's adoption of AI-driven development.
+- Pioneer an AI-native approach to rewrite the team's in-app marketing infrastructure into a data-driven, configuration-based system, reducing code duplication by >90% and increasing new campaign setup speed by 2x.
+- Establish and promote an AI-first engineering cycle across scoping, planning, execution, and review, setting the standard for AI-native development within the team.
+- Lead the initiative to build a context management foundation for Instagram's parent-facing campaigns. Distill domain expertise into AI agent skills and plugins for automated campaign creation and testing, boosting the system's scalability.
+- Ship in-app marketing campaigns reaching over 100 million predicted parents on Instagram, driving measurable gains in sentiment and engagement through tight timelines with robust engineering scoping and cross-functional alignment.
+- Build comprehensive logging, alerting, and AI-assisted anomaly detection for Instagram's parent-facing marketing system, reducing incident response time and improving system reliability.
 
 ### Software Development Intern
 
