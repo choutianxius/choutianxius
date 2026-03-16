@@ -34,7 +34,7 @@ jobs:
         run: docker pull texlive/texlive
 
       - name: Build and generate pdf
-        run: docker run --rm -v .:/workdir texlive/texlive pdflatex -synctex=1 -interaction=nonstopmode -file-line-error -recorder mycv.tex
+        run: ./make.sh --docker
 
       - name: Prepare artifact
         run: rm -rf docs/*.pdf && cp mycv.pdf "docs/Tianxiu_(Tyson)_Zhou-Resume.pdf"
