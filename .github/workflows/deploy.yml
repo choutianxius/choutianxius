@@ -37,7 +37,7 @@ jobs:
         run: ./make.sh --docker
 
       - name: Prepare artifact
-        run: rm -rf docs/*.pdf && cp mycv.pdf "docs/Tianxiu_(Tyson)_Zhou-Resume.pdf"
+        run: rm -rf docs/*.pdf && cp mycv.pdf "docs/Tyson_(Tianxiu)_Zhou-Resume.pdf"
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
