@@ -23,14 +23,12 @@
 
 | Project Name                                 | Company      | Skills                                            | Time                |
 | -------------------------------------------- | ------------ | ------------------------------------------------- | ------------------- |
-| Advanced Mobile Automated Regression Testing | Paycom, LLC. | .NET, TypeScript, React.js, MySQL, Docker, GitLab | May 2024 - Aug 2024 |
+| Advanced Mobile Automated Regression Testing | Paycom LLC. | .NET, Docker, GitLab, MySQL, TypeScript, React.js | May 2024 - Aug 2024 |
 
-- Collaboratively designed a system for executing UI regression tests on remote mobile devices, providing a unified solution to automating quality assurance tests with comprehensive control and logging for both iOS and Android.
-- Developed a .NET Core backend application with the MySQL database to provide a RESTful API for managing test scripts, scheduling and dispatching testing jobs to mobile devices, and persisting test execution results.
-- Implemented dependency injection and the repository pattern in the .NET Core backend project. Implemented unit tests with xUnit and Moq to achieve a full test coverage.
-- Set up GitLab CI pipelines to automatically perform unit testing and linting upon merge requests.
-- Built an SPA frontend for visualizing test scripts, testing jobs and results with React.js and an internal UI library.
-- Containerized the .NET Core backend using Docker and integrated the frontend SPA with Docker multi-stage building.
+- Designed and built a .NET Core backend with MySQL for executing UI regression tests on remote iOS and Android devices, providing RESTful APIs for managing test scripts, scheduling jobs, and persisting results.
+- Implemented dependency injection, repository pattern, and full unit test coverage with xUnit and Moq.
+- Built an SPA frontend with React.js for visualizing test scripts, jobs, and results. Containerized the full stack using Docker multi-stage builds.
+- Set up GitLab CI pipelines to automate unit testing and linting on merge requests.
 - Awarded as one of the MVPs of the Software Development Internship program.
 
 ### Research Assistant
@@ -39,10 +37,8 @@
 | ----------------------------------------------------------- | --------------- | --------------------------------------------------------------------------------- | ------------------ |
 | Digital Twin-Based Smart City & Smart Construction Platform | Texas A&M Univ. | TypeScript, Next.js, React Native, TailwindCSS, FastAPI, Apache Kafka, Redis, AWS | Nov 2023 - May 2025 |
 
-- Designed and implemented a FastAPI backend to deliver domain-specific data analysis via RESTful APIs.
-- Engineered an asynchronous data processing pipeline using Apache Kafka and Redis, with outputs persisted to AWS DynamoDB.
-- Built responsive web interfaces including a public data visualization site and an internal admin dashboard using Next.js and TailwindCSS.
-- Developed a cross-platform mobile app with React Native for interactive data visualization; created a high-performance custom charting library using React Native Skia and D3.js.
+- Engineered an asynchronous data processing pipeline using Apache Kafka and Redis, with outputs persisted to AWS DynamoDB. Implemented a FastAPI-based RESTful backend to provide domain-specific real-time data analysis service.
+- Built responsive data visualization website and an admin dashboard using Next.js and TailwindCSS and a cross-platform mobile app with React Native.
 - Deployed full-stack applications using AWS services including ECS, S3, CloudFront, Route 53, and Amplify.
 - Established CI/CD pipelines with AWS CodeCommit, CodeBuild, and CodeDeploy to automate testing, integration, and deployment workflows.
 
@@ -52,7 +48,7 @@
 
 | Project Name                                               | Institute      | Skills                                                  | Time                |
 | ---------------------------------------------------------- | -------------- | ------------------------------------------------------- | ------------------- |
-| Network Dissection of a DQN Agent Playing Super Mario Bros | Tsinghua Univ. | PyTorch, Deep Reinforcement Learning, OpenAI Gym, Numpy | Feb 2023 - Jun 2023 |
+| Network Dissection of a DQN Agent for Super Mario Bros | Tsinghua Univ. | PyTorch, Deep Reinforcement Learning, OpenAI Gym, Numpy | Feb 2023 - Jun 2023 |
 
 - Implemented the double DQN algorithm with PyTorch to train a reinforcement learning agent to beat Super Mario Bros.
 - Fine-tuned a semantic segmentation model for segmenting in-game scenes to generate training dataset for the DQN agent, based on ResNet-50.
